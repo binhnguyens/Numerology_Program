@@ -42,9 +42,9 @@ def age_checker (x):
 
 print ('------------------------------------------')
 
-d = age_checker (input ('Day of Birth?\n'))
-m = age_checker (input ('Month of Birth?\n'))
-y = input ('Year of Birth?\n')
+d = int (age_checker (input ('Day of Birth?\n')))
+m = int (age_checker (input ('Month of Birth?\n')))
+y = int (input ('Year of Birth?\n'))
 
 # d  = 21
 # m = 9
@@ -87,13 +87,17 @@ for i in range (1,4):
 print ('------------------------------------------')
 print ('First peak year age: %d' %peak_ages[0])
 print ('First peak year theme: %d' %b2a)
+print ('Year: %d' %(y+peak_ages[0]))
 print ('------------------------------------------')
 print ('Second peak year age: %d' %peak_ages[1])
 print ('Second peak year theme: %d' %b2b)
+print ('Year: %d' %(y+peak_ages[1]))
 print ('------------------------------------------')
 print ('Third peak year age: %d' %peak_ages[2])
 print ('Third peak year theme: %d' %b2c)
+print ('Year: %d' %(y+peak_ages[2]))
 print ('------------------------------------------')
 print ('Fourth peak year age: %d' %peak_ages[3])
 print ('Fourth peak year theme: %d' %b3a)
+print ('Year: %d' %(y+peak_ages[3]))
 print ('------------------------------------------')
